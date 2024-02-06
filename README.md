@@ -22,8 +22,8 @@ The project is also available as a [Maven](http://maven.apache.org/) dependency:
 
 ```xml
 <dependency>
-  <groupId>com.esri.geometry</groupId>
-  <artifactId>esri-geometry-api</artifactId>
+  <groupId>com.stkgeometry</groupId>
+  <artifactId>stk-geometry-api</artifactId>
   <version>2.2.4</version>
 </dependency>
 ```

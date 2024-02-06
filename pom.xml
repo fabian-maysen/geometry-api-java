@@ -1,9 +1,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.esri.geometry.stk</groupId>
-	<artifactId>esri-geometry-api-stk</artifactId>
-	<version>2.2.5-SNAPSHOT</version>
+	<groupId>com.stkgeometry</groupId>
+	<artifactId>stk-geometry-api</artifactId>
+	<version>2.2.6-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
 	<name>Esri Geometry API for Java</name>
@@ -202,6 +202,7 @@
 				<artifactId>maven-javadoc-plugin</artifactId>
 				<version>${javadoc.plugin.version}</version>
 				<configuration>
+					<skip>true</skip>
 					<link>http://help.arcgis.com/EN/sdk/10.0/Java_AO_ADF/api/arcobjects</link>
 					<link>http://docs.oracle.com/javase/6/docs/api/</link>
 				</configuration>
