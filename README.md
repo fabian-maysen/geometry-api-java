@@ -22,7 +22,7 @@ The project is also available as a [Maven](http://maven.apache.org/) dependency:
 
 ```xml
 <dependency>
-  <groupId>com.stkgeometry</groupId>
+  <groupId>io.github.fabian-maysen</groupId>
   <artifactId>stk-geometry-api</artifactId>
   <version>2.2.4</version>
 </dependency>
