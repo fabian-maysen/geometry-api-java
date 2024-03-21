@@ -470,6 +470,7 @@ public abstract class OGCGeometry {
 		OperatorBuffer op = (OperatorBuffer) OperatorFactoryLocal.getInstance()
 				.getOperator(Operator.Type.Buffer);
 		if (distance == 0) {// when distance is 0, return self (maybe we should
+
 			// create a copy instead).
 			return this;
 		}
