@@ -13,9 +13,9 @@
 
 	<licenses>
 		<license>
-			<name>The Apache Software License, Version 2.0</name>
-			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
-			<distribution>repo</distribution>
+				<name>The Apache Software License, Version 2.0</name>
+				<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+				<distribution>repo</distribution>
 		</license>
 	</licenses>
 
@@ -133,12 +133,6 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>org.mockito</groupId>
-			<artifactId>mockito-core</artifactId>
-			<version>3.12.4</version>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
 			<groupId>org.openjdk.jol</groupId>
 			<artifactId>jol-core</artifactId>
 			<version>${jol.version}</version>
@@ -184,7 +178,7 @@
 						</goals>
 						<configuration>
 							<bnd>
-								<![CDATA[
+										<![CDATA[
 					  Automatic-Module-Name: com.esri.geometry.api
 					  Bundle-Copyright: Copyright (c) (${now;YYYY}) Esri
 					  Bundle-Description: ${project.description}

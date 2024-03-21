@@ -77,6 +77,7 @@
 
 	<target name="report" depends="execute">
 
+
 		<junitreport todir="${dir.result.today}/xml">
 			<fileset dir="${dir.result.today}/xml">
 				<include name="**/*.xml" />
@@ -84,6 +85,7 @@
 			<report format="frames" todir="${dir.result.today}" />
 		</junitreport>
 	</target>
+
 
 	<target name="javadoc" depends="jar">
 		<javadoc access="public" author="true" classpathref="project.classpath" destdir="${dir.javadoc}" doctitle="Esri-geometry-api" nodeprecated="false" nodeprecatedlist="false" noindex="false" nonavbar="false" notree="false" packagenames="com.esri.core.geometry.*" source="1.6" sourcepath="${dir.src.main.java}" splitindex="true" use="true" version="true">
@@ -98,5 +100,6 @@
 			<link href="http://docs.oracle.com/javase/6/docs/api/" />
 		</javadoc>
 	</target>
+
 
 </project>
