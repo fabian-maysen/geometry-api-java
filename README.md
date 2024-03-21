@@ -22,9 +22,9 @@ The project is also available as a [Maven](http://maven.apache.org/) dependency:
 
 ```xml
 <dependency>
-  <groupId>io.github.fabian-maysen</groupId>
-  <artifactId>stk-geometry-api</artifactId>
-  <version>2.2.4</version>
+    <groupId>com.esri.geometry</groupId>
+    <artifactId>esri-geometry-api</artifactId>
+    <version>2.2.4</version>
 </dependency>
 ```
 
@@ -33,7 +33,7 @@ The project is also available as a [Maven](http://maven.apache.org/) dependency:
 * Java JDK 1.6 or greater.
 * [Apache Maven](https://maven.apache.org/) build system.
 * Experience developing MapReduce applications for [Apache Hadoop](http://hadoop.apache.org/).
-* Familiarity with text-based spatial data formats such as JSON or WKT would be useful. 
+* Familiarity with text-based spatial data formats such as JSON or WKT would be useful.
 
 ## Documentation
 * [geometry-api-java/Wiki](https://github.com/Esri/geometry-api-java/wiki/)
@@ -60,7 +60,7 @@ Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
 
-   http://www.apache.org/licenses/LICENSE-2.0
+http://www.apache.org/licenses/LICENSE-2.0
 
 Unless required by applicable law or agreed to in writing, software
 distributed under the License is distributed on an "AS IS" BASIS,
